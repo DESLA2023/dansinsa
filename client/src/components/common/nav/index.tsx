@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 interface NavItem {
    id: number;
    name: string;
@@ -117,7 +119,7 @@ const navItems: NavItem[] = [
    {
       id: 5,
       name: "마이",
-      path: "/my",
+      path: "/my-page",
       icon: (
          <span className="rounded-full bg-slate-300 w-[22px] h-[22px] my-1 grid place-content-center border-white border-2">
             <svg
@@ -143,12 +145,16 @@ const navItems: NavItem[] = [
 export default function Nav() {
    return (
       // pwa인 경우: pb-[20px] h-[80px]
-      <nav className="w-full bg-black h-[60px] fixed bottom-0 flex justify-between px-6 items-center">
+      <nav className="w-full bg-black h-[60px] fixed bottom-0 flex justify-between px-6 items-center m-auto max-w-3xl">
          {navItems.map((el) => (
-            <div className="text-white text-[10px] font-normal flex flex-col justify-end items-center gap-1">
+            <Link
+               key={el.id}
+               to={el.path}
+               className="text-white text-[10px] font-normal flex flex-col justify-end items-center gap-1"
+            >
                {el.icon}
                {el.name}
-            </div>
+            </Link>
          ))}
       </nav>
    );
