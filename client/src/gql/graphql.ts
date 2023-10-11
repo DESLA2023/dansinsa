@@ -14,27 +14,24 @@ export type Scalars = {
   Int: { input: number; output: number; }
   Float: { input: number; output: number; }
   /** A date-time string at UTC, such as 2007-12-03T10:15:30Z, compliant with the `date-time` format outlined in section 5.6 of the RFC 3339 profile of the ISO 8601 standard for representation of dates and times using the Gregorian calendar. */
-  DateTime: { input: any; output: any; }
+  DateTime: { input: string; output: string; }
   Gender: { input: any; output: any; }
   /** The `Upload` scalar type represents a file upload. */
-  Upload: { input: any; output: any; }
+  Upload: { input: File; output: File; }
 };
 
 export type AuthPayload = {
-  __typename?: 'AuthPayload';
   token?: Maybe<Scalars['String']['output']>;
   user?: Maybe<User>;
 };
 
-export enum AuthType {
-  Apple = 'Apple',
-  Email = 'Email',
-  Facebook = 'Facebook',
-  Google = 'Google'
-}
+export type AuthType =
+  | 'Apple'
+  | 'Email'
+  | 'Facebook'
+  | 'Google';
 
 export type Mutation = {
-  __typename?: 'Mutation';
   createDraft?: Maybe<Post>;
   deletePost?: Maybe<Post>;
   publish?: Maybe<Post>;
@@ -76,7 +73,6 @@ export type MutationUpdateProfileArgs = {
 };
 
 export type Post = {
-  __typename?: 'Post';
   content?: Maybe<Scalars['String']['output']>;
   createdAt?: Maybe<Scalars['DateTime']['output']>;
   deletedAt?: Maybe<Scalars['DateTime']['output']>;
@@ -87,14 +83,12 @@ export type Post = {
 };
 
 export type Profile = {
-  __typename?: 'Profile';
   authType?: Maybe<AuthType>;
   id?: Maybe<Scalars['ID']['output']>;
   socialId?: Maybe<Scalars['String']['output']>;
 };
 
 export type Query = {
-  __typename?: 'Query';
   feed?: Maybe<Array<Maybe<Post>>>;
   filterPosts?: Maybe<Array<Maybe<Post>>>;
   me?: Maybe<User>;
@@ -112,7 +106,6 @@ export type QueryPostArgs = {
 };
 
 export type Subscription = {
-  __typename?: 'Subscription';
   userSignedIn?: Maybe<User>;
   userUpdated?: Maybe<User>;
 };
@@ -128,7 +121,6 @@ export type SubscriptionUserUpdatedArgs = {
 };
 
 export type User = {
-  __typename?: 'User';
   birthDay?: Maybe<Scalars['DateTime']['output']>;
   createdAt?: Maybe<Scalars['DateTime']['output']>;
   deletedAt?: Maybe<Scalars['DateTime']['output']>;

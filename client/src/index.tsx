@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
-import { ApolloProvider } from 'react-apollo';
-import ApolloClient from 'apollo-boost';
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+} from '@apollo/react-hooks';
+
 const client = new ApolloClient({
   uri: 'http://localhost:6001/graphql',
+  cache: new InMemoryCache(),
 });
 
 const root = ReactDOM.createRoot(
