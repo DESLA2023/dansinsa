@@ -6,7 +6,6 @@
     "experimentalDecorators": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
     "target": "es2017",
     "esModuleInterop": true,
     "allowJs": true,
@@ -23,10 +22,8 @@
     "outDir":"dist/",
     "baseUrl":"src/",
     "listFiles":false,
-    "strict": true,
     "skipLibCheck": true
   },
-  "files": ["environment.d.ts"],
   "include": [
     "src/**/*"
   ],
