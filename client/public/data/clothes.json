@@ -35,6 +35,30 @@
       "image": "/data/monkey.jpg",
       "vtonimage": null,
       "description": "우끼끼"
+    },
+    {
+      "id": 4,
+      "name": "Lee T-Shirt",
+      "brand": "Lee",
+      "category": "t-shirt",
+      "tags": [],
+      "size": ["S", "M", "L", "XL"],
+      "price": 8900,
+      "image": "/data/Lee_Green.jpg",
+      "vtonimage": null,
+      "description": "리 티셔츠입니다."
+    },
+    {
+      "id": 5,
+      "name": "Bosé Six-Pack T-Shirt",
+      "brand": "Bosé",
+      "category": "t-shirt",
+      "tags": [],
+      "size": ["S", "M", "L", "XL"],
+      "price": 12200,
+      "image": "/data/Six_T.jpg",
+      "vtonimage": null,
+      "description": "식스팩 티셔츠 입니다."
     }
   ]
 }
