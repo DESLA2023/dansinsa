@@ -31,7 +31,7 @@ export default function Card() {
               <span>[ {cth.brand} ]</span> <p>₩ {parsePrice(cth.price)}</p>
             </div>
             <p className='text-xl'>{cth.name}</p>
-            <p className='text-sm'>{cth.description}</p>
+            <p className='text-sm'>" {cth.description} "</p>
           </div>
         </div>
       ))}
