@@ -9,7 +9,7 @@
       "size": ["S", "M", "L", "XL"],
       "price": 1280000,
       "image": "/data/ballenciaga.jpg",
-      "vtonimage": null,
+      "vtonImage": "/data/model.jpg",
       "description": "발렌시아가 티셔츠입니다."
     },
     {
@@ -21,7 +21,7 @@
       "size": ["S", "M", "L", "XL"],
       "price": 49000,
       "image": "/data/GreedyCat_Chuck.jpg",
-      "vtonimage": null,
+      "vtonImage": "/data/model.jpg",
       "description": "그리디캣 티셔츠입니다."
     },
     {
@@ -33,7 +33,7 @@
       "size": ["S", "M", "L", "XL"],
       "price": 9800,
       "image": "/data/monkey.jpg",
-      "vtonimage": null,
+      "vtonImage": "/data/model.jpg",
       "description": "우끼끼"
     },
     {
@@ -45,7 +45,7 @@
       "size": ["S", "M", "L", "XL"],
       "price": 8900,
       "image": "/data/Lee_Green.jpg",
-      "vtonimage": null,
+      "vtonImage": "/data/model.jpg",
       "description": "리 티셔츠입니다."
     },
     {
@@ -57,7 +57,7 @@
       "size": ["S", "M", "L", "XL"],
       "price": 12200,
       "image": "/data/Six_T.jpg",
-      "vtonimage": null,
+      "vtonImage": "/data/model.jpg",
       "description": "식스팩 티셔츠 입니다."
     }
   ]

@@ -8,6 +8,7 @@ import {
   InMemoryCache,
   ApolloProvider,
 } from '@apollo/react-hooks';
+import { RecoilRoot } from 'recoil';
 
 const client = new ApolloClient({
   uri: 'http://localhost:6001/graphql',
@@ -19,8 +20,10 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <ApolloProvider client={client}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <RecoilRoot>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </RecoilRoot>
   </ApolloProvider>
 );

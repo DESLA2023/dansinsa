@@ -7,7 +7,7 @@ export interface IClothes {
   size: ClothesSize;
   price: number;
   image: string;
-  vtonImage: string | null;
+  vtonImage: string;
   description: string;
 }
 

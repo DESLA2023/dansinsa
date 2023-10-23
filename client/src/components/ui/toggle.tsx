@@ -11,9 +11,12 @@ export default function Toggle({ checked, ...props }: ToggleProps) {
         } rounded-full box-border flex items-center justify-center transition-all`}
       >
         <div
-          className={`top-[50%] translate-x-[${checked ? '50%' : '-50%'}] ${
+          className={`top-[50%] ${
             checked ? 'bg-white' : 'bg-gray-800'
           } aspect-square rounded-full h-[calc(100%-0.5rem)] transition-all`}
+          style={{
+            transform: `translateX(${checked ? '50%' : '-50%'})`,
+          }}
         />
       </div>
       <input
