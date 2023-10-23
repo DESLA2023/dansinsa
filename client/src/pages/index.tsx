@@ -1,10 +1,14 @@
+import Card from '../components/main/card';
+
 export default function Main() {
-   return (
-      <div>
-         <img
-            src="https://image.msscdn.net/display/images/2023/09/19/e9e306478d1f43ef878ced9975a8d3f7.jpg"
-            alt=""
-         />
+  return (
+    <main className='mb-[80px]'>
+      <div className='m-4'>
+        <h2 className='text-xl'>당신만을 위한 패션,</h2>
+        <h1 className='text-4xl font-bold'>DANSINSA 스토어.</h1>
       </div>
-   );
+
+      <Card />
+    </main>
+  );
 }

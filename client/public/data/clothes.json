@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Ballenciaga T-Shirt",
+      "brand": "Ballenciaga",
+      "category": "t-shirt",
+      "tags": ["luxury", "fashion", "ballenciaga"],
+      "size": ["S", "M", "L", "XL"],
+      "price": 1000000,
+      "image": "/data/ballenciaga.jpg",
+      "description": "발렌시아가 티셔츠입니다."
+    },
+    {
+      "id": 2,
+      "name": "GreedyCat Chuck T-Shirt",
+      "brand": "GreedyCat",
+      "category": "t-shirt",
+      "tags": [],
+      "size": ["S", "M", "L", "XL"],
+      "price": 100000,
+      "image": "/data/GreedyCat_Chuck.jpg",
+      "description": "그리디캣 티셔츠입니다."
+    }
+  ]
+}
