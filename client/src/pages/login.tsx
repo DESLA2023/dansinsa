@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Input from '../components/ui/Input';
+import Input from '../components/ui/input';
 import { useAuth } from '../hooks/useAuth';
 import { gql, useMutation } from '@apollo/client';
 

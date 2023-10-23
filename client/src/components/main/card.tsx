@@ -5,6 +5,7 @@ import { parsePrice } from '../../utils/parsePrice';
 
 export default function Card() {
   const [clothes, setClothes] = useState<IClothes[] | null>(null);
+  const [vtonImageOn, setVtonImageOn] = useState(false); // TODO: 전역 상태로 관리할 것
   const fetchData = async () => {
     const { data } =
       await axios.get<AxiosResponse<IClothes[]>>('/data/clothes.json');
