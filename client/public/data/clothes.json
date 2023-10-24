@@ -8,8 +8,8 @@
       "tags": ["luxury", "fashion", "ballenciaga"],
       "size": ["S", "M", "L", "XL"],
       "price": 1280000,
-      "image": "/data/ballenciaga.jpg",
-      "vtonImage": "/data/model.jpg",
+      "image": "/data/1.jpg",
+      "vtonImage": "/data/vton_1.jpeg",
       "description": "발렌시아가 티셔츠입니다."
     },
     {
@@ -20,8 +20,8 @@
       "tags": [],
       "size": ["S", "M", "L", "XL"],
       "price": 49000,
-      "image": "/data/GreedyCat_Chuck.jpg",
-      "vtonImage": "/data/model.jpg",
+      "image": "/data/2.jpg",
+      "vtonImage": "/data/vton_2.png",
       "description": "그리디캣 티셔츠입니다."
     },
     {
@@ -32,8 +32,8 @@
       "tags": [],
       "size": ["S", "M", "L", "XL"],
       "price": 9800,
-      "image": "/data/monkey.jpg",
-      "vtonImage": "/data/model.jpg",
+      "image": "/data/3.jpg",
+      "vtonImage": "/data/vton_3.jpeg",
       "description": "우끼끼"
     },
     {
@@ -44,8 +44,8 @@
       "tags": [],
       "size": ["S", "M", "L", "XL"],
       "price": 8900,
-      "image": "/data/Lee_Green.jpg",
-      "vtonImage": "/data/model.jpg",
+      "image": "/data/4.jpg",
+      "vtonImage": "/data/vton_4.jpeg",
       "description": "리 티셔츠입니다."
     },
     {
@@ -56,8 +56,8 @@
       "tags": [],
       "size": ["S", "M", "L", "XL"],
       "price": 12200,
-      "image": "/data/Six_T.jpg",
-      "vtonImage": "/data/model.jpg",
+      "image": "/data/5.jpg",
+      "vtonImage": "/data/vton_5.jpeg",
       "description": "식스팩 티셔츠 입니다."
     }
   ]
